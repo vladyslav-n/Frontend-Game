@@ -59,13 +59,13 @@ export default styled(Tile)`
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  background-color: ${props => props.correct ? '#226666' : '#D4726A'};
+  background-color: ${props => props.correct ? '#08a0a0' : '#ff5858'};
   transition-property: top, left, background-color;
   transition-duration: .300s;
   transition-timing-function: ease-in;
 
   .tile-number {
-    color: #FFD1AA;
+    color: #ffffff;
     font-weight: 400;
     font-size: 1.8em;
     user-select: none;

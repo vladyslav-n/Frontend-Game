@@ -12,7 +12,7 @@ injectTapEventPlugin();
 
 const MuiTheme = () => (
   <MuiThemeProvider>
-    <App level={levelFactory(4 ** 2)} />
+    <App className="content" level={levelFactory(4 ** 2)} />
   </MuiThemeProvider>
 );
 
